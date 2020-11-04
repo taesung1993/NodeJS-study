@@ -1,0 +1,25 @@
+{
+  "name": "tdd-restful-api",
+  "version": "1.0.0",
+  "description": "example tdd using simple restful api, expressjs",
+  "main": "index.js",
+  "license": "Taesung Yun",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "mocha server.spec.js -r @babel/register"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "should": "^13.2.3",
+    "supertest": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
